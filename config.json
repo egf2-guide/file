@@ -3,13 +3,13 @@
   "port": 2018,
   "auth": "http://127.0.0.1:2016",
   "client-data": "http://127.0.0.1:8000/",
-  "s3_bucket": "test_bucket",
+  "s3_bucket": "egf2-guide-images",
   "consumer-group": "pusher",
   "queue": "rethinkdb",
   "rethinkdb": {
     "host": "localhost",
     "port": "28015",
-    "db": "eigengraph",
+    "db": "guide",
     "table": "events",
     "offsettable": "event_offset"
   },
